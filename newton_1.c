@@ -6,7 +6,7 @@ int main(){
     printf("Ingrse numero: ");
     scanf("%lf", &n);
     x0 = n;
-    while (i < 100){
+    while (i < 5){
         x1 = (x0 + n/x0)/2;
         x0 = x1;
         i = i + 1;
